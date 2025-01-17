@@ -33,7 +33,7 @@ keymap = [
     { on = ["<C-Space>"],    run = ["toggle", "arrow -1"],    desc = "Toggle the current selection state" },
     { on = ["v"],            run = "visual_mode",             desc = "Enter visual mode (selection mode)" },
     { on = ["V"],            run = "visual_mode --unset",     desc = "Enter visual mode (unset mode)" },
-    { on = ["<C-a>"],        run = "toggle_all --state=on",   desc = "Select all files" },
+    { on = ["<C-q>"],        run = "toggle_all --state=on",   desc = "Select all files" },
     { on = ["<C-r>"],        run = "toggle_all",              desc = "Inverse selection of all files" },
 
     # Operation
@@ -145,7 +145,7 @@ prepend_keymap = [
 keymap = [
     # Close
     { on = ["<Esc>"],        run = "close",    desc = "Hide the task manager" },
-    { on = ["<C-q>"],        run = "close",    desc = "Hide the task manager" },
+    # { on = ["<C-q>"],        run = "close",    desc = "Hide the task manager" },
 
     { on = ["w"],            run = "close",    desc = "Hide the task manager" },
     { on = ["k"],            run = "arrow -1", desc = "Move cursor up" },
@@ -160,7 +160,7 @@ keymap = [
 [pick]
 keymap = [
     # Close
-    { on = ["<C-q>"],        run = "close",    desc = "Cancel selection" },
+    # { on = ["<C-q>"],        run = "close",    desc = "Cancel selection" },
     { on = ["<Esc>"],        run = "close",    desc = "Cancel selection" },
     { on = ["<Enter>"],      run = "close --submit", desc = "Submit the selection" },
 
@@ -220,7 +220,8 @@ keymap = [
 [completion]
 keymap = [
     # Close
-    { on = ["<C-q>"],        run = "close", desc = "Cancel completion" },
+    # { on = ["<C-q>"],        run = "close", desc = "Cancel completion" },
+    { on = ["<Esc>"],        run = "close", desc = "Cancel completion" },
     { on = ["<Tab>"],        run = "close --submit", desc = "Submit the completion" },
 
     # Move
@@ -235,7 +236,7 @@ keymap = [
 keymap = [
     { on = ["<Esc>"],        run = "escape",   desc = "Clear the filter, or hide the help" },
     { on = ["q"],            run = "close",    desc = "Exit the process" },
-    { on = ["<C-q>"],        run = "close",    desc = "Hide the help" },
+    # { on = ["<C-q>"],        run = "close",    desc = "Hide the help" },
 
     # Navigation
     { on = ["k"],            run = "arrow -1", desc = "Move cursor up" },
