@@ -114,6 +114,7 @@ keymap = [
     { on = ["g", "c"],       run = "cd ~/.config",                        desc = "Go to the config directory" },
     { on = ["g", "d"],       run = "cd ~/Downloads",                      desc = "Go to the downloads directory" },
     { on = ["g", "p"],       run = "cd ~/Pictures",                       desc = "Go to the pictures directory" },
+    { on = ["g", "v"],       run = "cd ~/Videos/",                        desc = "Go to the pictures directory" },
     { on = ["g", "s"],       run = "cd ~/.servers",                       desc = "Go to the downloads directory" },
     { on = ["g", "t"],       run = "cd /tmp",                             desc = "Go to the temporary directory" },
     # { on = ["g", "m"],       run = "cd ~/.local/share/multimc/instances", desc = "Go to the multimc directory" },
