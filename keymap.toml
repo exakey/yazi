@@ -129,8 +129,8 @@ keymap = [
 prepend_keymap = [
     { on = ["Y"],            run = [ '''shell --confirm 'for path in "$@"; do echo "file://$path"; done | wl-copy -t text/uri-list' ''', "yank" ] },
     { on = ["P"],            run = "plugin smart-paste" },
-    { on = ["J"],            run = "plugin parent-arrow --args=1" },
-    { on = ["K"],            run = "plugin parent-arrow --args=-1" },
+    { on = ["J"],            run = "plugin parent-arrow 1" },
+    { on = ["K"],            run = "plugin parent-arrow -1" },
     { on = ["l"],            run = "plugin smart-enter" },
     { on = ["i"],            run = "plugin keyjump" },
     { on = ["T"],            run = "plugin hide-preview" },
