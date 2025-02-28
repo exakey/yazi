@@ -32,8 +32,8 @@ border_style    = { fg = "#1e1e2e" }
 syntect_theme   = "~/.config/yazi/Catppuccin-mocha.tmTheme"
 
 [status]
-separator_open  = ""
-separator_close = ""
+sep_left        = {open = "", close = ""}
+sep_right       = {open = "", close = ""}
 separator_style = { fg = "#313244",         bg = "black" }
 
 [mode]
@@ -47,7 +47,7 @@ unset_alt       = { bg = "green",           fg = "#1e1e2e", bold = false }
 # Progress
 progress_label  = { fg = "black",           bold = true }
 progress_normal = { fg = "blue",            bg = "#1e1e2e" }
-progress_error  = { fg = "green",           bg = "#1e1e2e" }
+progress_error  = { fg = "black",           bg = "#f38ba8" }
 
 # Permissions
 perm_type       = { fg = "#cdd6f4" }
