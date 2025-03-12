@@ -2,7 +2,7 @@
 cwd             = { fg = "green",           bg = "reset" }
 
 # Hovered
-hovered         = { fg = "#eba0ac",         bg = "black" }
+hovered         = { bold = true }
 preview_hovered = { underline = false }
 
 # Find
@@ -86,6 +86,12 @@ exec            = { fg = "#94e2d5" }
 desc            = { fg = "#9399b2" }
 hovered         = { bg = "#585b70",         bold = true }
 footer          = { fg = "#45475a",         bg = "white" }
+
+[spot]
+border   = { fg = "#181825" }
+title    = { fg = "#cdd6f4", bg = "#11111b" }
+tbl_col  = { fg = "#cdd6f4", bg = "#11111b" }
+tbl_cell = { bg = "#11111b", reversed = false, bold = true }
 
 [filetype]
 rules = [

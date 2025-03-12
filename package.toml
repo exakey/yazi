@@ -63,5 +63,25 @@ use = "sharklasers996/eza-preview"
 rev = "7ca4c25"
 hash = "d1efd1931dd738af0d6e4f41dd491313"
 
+[[plugin.deps]]
+use = "Tyarel8/goto-drives"
+rev = "dc017a2"
+hash = "524380fa5dcafa41bf6ec9baae9dc8f0"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "92f78dc"
+hash = "dd97eede8e20e59cd2604e8006e470e2"
+
+[[plugin.deps]]
+use = "boydaihungst/file-extra-metadata"
+rev = "031999d"
+hash = "e55d11c23b7b70cf7015503f24d42205"
+
+[[plugin.deps]]
+use = "philocalyst/mu-view"
+rev = "fca70ca"
+hash = "5d6ca8aaf01a12c1b26afb92d1f19592"
+
 [flavor]
 deps = []
