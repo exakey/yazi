@@ -78,10 +78,5 @@ use = "boydaihungst/file-extra-metadata"
 rev = "031999d"
 hash = "e55d11c23b7b70cf7015503f24d42205"
 
-[[plugin.deps]]
-use = "philocalyst/mu-view"
-rev = "fca70ca"
-hash = "5d6ca8aaf01a12c1b26afb92d1f19592"
-
 [flavor]
 deps = []
