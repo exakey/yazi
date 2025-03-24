@@ -97,8 +97,8 @@
 
 [spot]
         border   = { fg = "#181825" }
-        title    = { fg = "#cdd6f4", bg = "#11111b" }
-        tbl_col  = { fg = "#cdd6f4", bg = "#11111b" }
+        title    = { fg = "#cdd6f4" }
+        tbl_col  = { fg = "#cdd6f4" }
         tbl_cell = { bg = "#11111b", reversed = false, bold = true }
 
 
