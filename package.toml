@@ -78,5 +78,10 @@ use = "boydaihungst/file-extra-metadata"
 rev = "031999d"
 hash = "e55d11c23b7b70cf7015503f24d42205"
 
+[[plugin.deps]]
+use = "NoponyAsked/sxiv"
+rev = "f53aa35"
+hash = "b6636098c2a1b2667f95cacc4a53430a"
+
 [flavor]
 deps = []
